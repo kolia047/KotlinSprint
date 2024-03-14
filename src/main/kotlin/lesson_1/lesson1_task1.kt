@@ -1,5 +1,6 @@
 package lesson_1
 
-fun main(args: Array<String>) {
-println("Первое изменение")
+fun main() {
+    val theNumberOfOrders: Int = 1;
+    val textOfGratitude: String = "Thank you for your purchase"
 }
