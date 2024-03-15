@@ -1,6 +1,7 @@
 package lesson_2
 
 fun main() {
+
     val employes = 50
     val salary = 30000
     val intern = 30
@@ -13,4 +14,5 @@ fun main() {
     println(salaryEmployes)
     println(allSalary)
     println(averageEmployeeSalary)
+
 }
