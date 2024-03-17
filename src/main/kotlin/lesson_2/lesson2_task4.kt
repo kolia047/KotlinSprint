@@ -1,11 +1,12 @@
 package lesson_2
 
 fun main() {
-    val baff = 0.2F
+    val baffInPercentages = 20
     val crystalOre = 7
     val ironOre = 11
-    val baffCrystalOre = (crystalOre * baff).toInt()
-    val baffIronOre = (ironOre * baff).toInt()
+    val baffForCalculation = baffInPercentages / 100F
+    val baffCrystalOre = (crystalOre * baffForCalculation).toInt()
+    val baffIronOre = (ironOre * baffForCalculation).toInt()
 
     println("Baff crystal ore: $baffCrystalOre")
     println("Baff iron ore: $baffIronOre")
